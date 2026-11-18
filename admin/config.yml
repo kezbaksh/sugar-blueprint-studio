@@ -1,0 +1,27 @@
+
+backend:
+  name: github
+  repo: kezbaksh/sugar-blueprint-studio
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "website"
+    label: "Website Content"
+    files:
+      - name: "homepage"
+        label: "Homepage"
+        file: "content/homepage.json"
+        format: "json"
+        fields:
+          - label: "Main Heading"
+            name: "heading"
+            widget: "string"
+            default: "Art Meets Indulgence"
+
+          - label: "Introduction"
+            name: "introduction"
+            widget: "text"
+            required: false
