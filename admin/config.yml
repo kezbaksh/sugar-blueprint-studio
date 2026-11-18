@@ -3,6 +3,9 @@ backend:
   name: github
   repo: kezbaksh/sugar-blueprint-studio
   branch: main
+  base_url: https://sugarblueprintstudio.netlify.app
+  auth_endpoint: /.netlify/functions/auth-start
+
 
 media_folder: "assets"
 public_folder: "/assets"
